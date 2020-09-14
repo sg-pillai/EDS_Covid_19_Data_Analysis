@@ -6,11 +6,13 @@ Repository for the COVID-19 analysis dashboard using Python
 - Run the visualize.py file using the command "python visualize.py"
 # Additional Information
 - Necessary libraries needs to be installed.
-- The code will fetch the necessary data in to the folder data
+- The code will fetch the necessary data in to the folder 'data'
 - http://127.0.0.1:8050 is the default address for the dashboard
 - For the purpose of multiple country selection in SIR model, a file named population.csv is used.
 It is present under data/processed/ directory.
 
-Basic results is shown below:
+Basic results are shown below:
 
+![alt text](reports/figures/task1.png)
+![alt text](reports/figures/task2.png)
 
