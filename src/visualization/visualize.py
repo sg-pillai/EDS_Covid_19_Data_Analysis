@@ -158,7 +158,7 @@ app.layout = html.Div([
             dcc.Dropdown(
                 id='select_country',
                 options=[{'label': each, 'value': each} for each in df_analyse['country'].unique()],
-                value='Italy',  # which are pre-selected
+                value='India',  # which are pre-selected
                 multi=False),
 
             dcc.Graph(figure=fig, id='SIR_figure')
