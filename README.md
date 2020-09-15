@@ -13,6 +13,6 @@ It is present under data/processed/ directory.
 
 Basic results are shown below:
 
-![alt text](reports/figures/task1.png)
+![alt text](reports/figures/task1_1.png)
 ![alt text](reports/figures/task2.png)
 
