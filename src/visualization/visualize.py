@@ -120,7 +120,7 @@ app.layout = html.Div([
         dcc.Tab(id='tab1', label='COVID cases visualization based on countries', value='tab1', children=[
 
             dcc.Markdown('''
-    ## Select countries for visualization
+    ## Select Countries
     '''),
 
             dcc.Dropdown(
@@ -131,7 +131,7 @@ app.layout = html.Div([
             ),
 
             dcc.Markdown('''
-        ## Select confirmed COVID-19 cases or the approximated doubling time
+        ## Select Timeline
         '''),
 
             dcc.Dropdown(
@@ -151,9 +151,12 @@ app.layout = html.Div([
         dcc.Tab(id='tab2', label='SIR Model of COVID Infection spread', value='tab2', children=[
             dcc.Markdown('''
 
-    # SIR model fitting of COVID-19 spread on the second tab
+    # SIR model fit
 
     '''),
+            dcc.Markdown('''
+        ## Select Country
+        '''),
 
             dcc.Dropdown(
                 id='select_country',
